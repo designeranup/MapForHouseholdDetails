@@ -291,7 +291,7 @@ function updateMap(data) {
     });
 
     marker.bindPopup([
-      `${householdId ?? ""} - ${zone ?? ""}`,
+      `<strong>${householdId ?? ""} - Zone: ${zone ?? ""}</strong>`,
       `AnimalsSpecies: ${animalsSpecies ?? ""}`,
       `AnimalSamplingDuration: ${animalSamplingDuration ?? ""}`,
       `TeamAndDay: ${teamAndDay ?? ""}`,
